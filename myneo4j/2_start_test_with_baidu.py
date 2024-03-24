@@ -34,3 +34,6 @@ How many entities exist?
 # https://blog.csdn.net/zeroheitao/article/details/122925845?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522171118325316800185852379%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=171118325316800185852379&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-122925845-null-null.142^v99^pc_search_result_base4&utm_term=neo4j&spm=1018.2226.3001.4187
 # https://bratanic-tomaz.medium.com/constructing-knowledge-graphs-from-text-using-openai-functions-096a6d010c17
 # https://medium.com/neo4j/langchain-cypher-search-tips-tricks-f7c9e9abca4d
+
+# llms in langchain
+# https://python.langchain.com/docs/integrations/llms/chatglm
