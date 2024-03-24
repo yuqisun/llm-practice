@@ -1,14 +1,14 @@
 from dotenv import load_dotenv
 from langchain.chains import GraphCypherQAChain
-from langchain.chat_models import ChatOpenAI
-from langchain.graphs import Neo4jGraph
+from langchain_openai import ChatOpenAI
+from langchain_community.graphs import Neo4jGraph
 
 load_dotenv()
 
 graph = Neo4jGraph(
-    url="xx://localhost:7687",
+    url="bolt://localhost:7687",
     username="neo4j",
-    password="xx"
+    password="x"
 )
 
 chain = GraphCypherQAChain.from_llm(

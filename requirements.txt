@@ -3,3 +3,4 @@ qianfan
 langchain
 neo4j
 openai
+langchain-openai
