@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 from langchain.chains import GraphCypherQAChain
-from langchain_openai import ChatOpenAI
 from langchain_community.graphs import Neo4jGraph
+from langchain_openai import OpenAI
 
 load_dotenv()
 
@@ -11,8 +11,10 @@ graph = Neo4jGraph(
     password="x"
 )
 
+llm = OpenAI()
+
 chain = GraphCypherQAChain.from_llm(
-    ChatOpenAI(temperature=0), graph=graph, verbose=True,
+    llm, graph=graph, verbose=True,
 )
 
 chain.run("""
