@@ -13,7 +13,8 @@ graph = Neo4jGraph(
 )
 
 llm = QianfanLLMEndpoint(
-    model="ChatGLM3-6B"
+    model="ERNIE-Bot"
+    # model="ERNIE-Bot-turbo"
 )
 
 print(llm('Tell me your model name'))
