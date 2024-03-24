@@ -1,2 +1,5 @@
 langchain_community
 qianfan
+langchain
+neo4j
+openai
